@@ -9,7 +9,6 @@ function Cover() {
     return(
         <Container fluid className='cover-bg'>
             <Nav></Nav>
-            <div className='cover-container'>
                 <p className='cover-text'>
                 ‘Who are you, O great mountain? Before Zerubbabel you shall become a plain! And he shall bring forth the capstone With shouts of “Grace, grace to it!” ’ ”
                 <span>Zechariah 4:7</span>
@@ -20,7 +19,6 @@ function Cover() {
             alt=''
             className='cover-photo'
             />
-            </div>
         </Container>
     )
 }

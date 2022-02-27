@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.container-fluid {
+    padding: 0px auto;
+}
+
 .cover-text {
     position: absolute;
     text-align: end;
@@ -17,4 +21,14 @@
     margin-top: 100px;
     padding: 0px 3rem;
     margin-left: 26rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.nav-link {
+    color: #A97D5D !important;
+}
+
+.nav-link:hover {
+    color: #5C755E !important;
+    text-shadow: 1px 1px 3px #fff;
 }

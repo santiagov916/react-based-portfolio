@@ -1,40 +1,23 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
-function Nav() {
+function Navbar() {
     return(
         <>
-        <Nav className="justify-content-center" activeKey="/home">
+        <Nav fixed='top' className="justify-content-end" activeKey="/home">
           <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link href="/home">Contact</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Nav.Link eventKey="link-1">Projects</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
+            <Nav.Link eventKey="link-2">Mission</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-              Disabled
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-        <p className="text-center mt-4 mb-4">Or right-aligned</p>
-        <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-              Disabled
+            <Nav.Link eventKey="link-3" >
+              Resume
             </Nav.Link>
           </Nav.Item>
         </Nav>
@@ -42,4 +25,4 @@ function Nav() {
     )
 };
 
-export default Nav;
+export default Navbar;
