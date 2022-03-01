@@ -1,5 +1,10 @@
 .projects-container {
-    background-color: #9C9F84!important;
+    background-color: #000000!important;
+}
+
+.container {
+  
+    padding: 55px 45px !important;
 }
 
 .cover-bg {
@@ -12,6 +17,10 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+}
+
+.third {
+   height: 158.44px;
 }
 
 .container-fluid {
@@ -45,4 +54,22 @@
 .nav-link:hover {
     color: #5C755E !important;
     text-shadow: 1px 1px 3px #fff;
+}
+
+.btn-primary {
+    color: #9c9f84 !important;
+    background-color: bisque !important;
+    border-color: bisque !important;
+}
+
+.card {
+    color: #9c9f84 !important;
+}
+
+#projects {
+    color: #9c9f84;
+}
+
+a.Button:hover {
+    background-color: #9c9f84;
 }

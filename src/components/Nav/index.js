@@ -10,7 +10,7 @@ function Navbar() {
             <Nav.Link href="/home">Mission</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">Projects</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-2">Resume</Nav.Link>
