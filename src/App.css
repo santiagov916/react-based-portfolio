@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Merriweather:wght@300&family=Raleway:wght@200&family=Zen+Antique&display=swap');
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Merriweather';
+}
+
 .projects-container {
     background-color: #000000!important;
 }

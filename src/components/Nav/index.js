@@ -10,13 +10,13 @@ function Navbar() {
             <Nav.Link href="/home">Mission</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="/#projects">Projects</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">Resume</Nav.Link>
+            <Nav.Link href="/#resume">Resume</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-3" >
+            <Nav.Link href="/#contact" >
               Contact
             </Nav.Link>
           </Nav.Item>

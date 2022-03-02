@@ -15,7 +15,7 @@ function Projects() {
                     <Card className='mb-3' style={{ width: '15rem' }}>
             <Card.Img variant="top" src={first} />
             <Card.Body>
-                <Card.Title>E-commerce Backend</Card.Title>
+                <Card.Title>E-com Backend</Card.Title>
                 <Card.Text>
                 <ul>
                     <li>dotenv , express , mysql , sequelize</li>
