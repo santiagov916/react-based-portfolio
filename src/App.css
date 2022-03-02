@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Merriweather:wght@300&family=Raleway:wght@200&family=Zen+Antique&display=swap');
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Merriweather';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.projects-container {
+    background-color: #000000!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+  
+    padding: 55px 45px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.cover-bg {
+    background-color: bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cover-photo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.third {
+   height: 158.44px;
+}
+
+.container-fluid {
+    padding: auto !important;
+}
+
+.mission {
+    position: absolute;
+    margin-top: 16rem;
+    color: white;
+    font-size: 15px;
+    padding-right: 12rem;
+    padding-left: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.cover-text {
+    position: absolute;
+    text-align: end;
+    color: white;
+    margin-top: 100px;
+    padding: 0px 4.8rem;
+    margin-left: 26rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.nav-link {
+    color: #A97D5D !important;
+}
+
+.nav-link:hover {
+    color: #5C755E !important;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.btn-primary {
+    color: #9c9f84 !important;
+    background-color: bisque !important;
+    border-color: bisque !important;
+}
+
+.card {
+    color: #9c9f84 !important;
+}
+
+#projects {
+    color: #9c9f84;
+}
+
+a.Button:hover {
+    background-color: #9c9f84;
 }
