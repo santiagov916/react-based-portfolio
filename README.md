@@ -26,7 +26,7 @@
 
   ## Usage
 
-  click here for the fully deployed application!
+  #### click here for the fully deployed application!: https://react-portfolio-srv.herokuapp.com/
 
   ## Installation 
 
