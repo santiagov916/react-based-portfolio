@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Navbar, NavItem } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import photoCat from "./photoCat.png";
 import photoPhone from './phonePhoto.png';
 import linkedIn from './linkedIn.png';

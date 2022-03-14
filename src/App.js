@@ -5,6 +5,8 @@ import Projects from './components/Projects';
 import Footer from './components/Contact';
 
 function App() {
+
+  
   return (
     <>
       <Cover></Cover>
