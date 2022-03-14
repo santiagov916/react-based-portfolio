@@ -12,7 +12,7 @@ function Footer() {
       <h2 className="text-center">Contact Me!</h2>
       <ul>
         <li>
-          <a href="https://github.com/santiagov916/" target='_blank'>
+          <a href="https://github.com/santiagov916/_blank">
             <img alt='' src={photoCat} style={{ maxWidth: "4rem" }}></img>
           </a>
         </li>
