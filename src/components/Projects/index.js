@@ -17,9 +17,7 @@ function Projects() {
             <Card.Body>
                 <Card.Title>E-com Backend</Card.Title>
                 <Card.Text>
-                <ul>
-                    <li>dotenv , express , mysql , sequelize</li>
-                </ul>
+                    dotenv , express , mysql , sequelize
                 </Card.Text>
                 <Button variant="primary" href='https://github.com/santiagov916/e-commerce-database' target='_blank'>See repository</Button>
             </Card.Body>
@@ -47,12 +45,8 @@ function Projects() {
   <Card.Body>
     <Card.Title>Social-API</Card.Title>
     <Card.Text>
-        <ul>
-            <li>
             nodemon, mongoose
             NoSQL
-            </li>
-        </ul>
     </Card.Text>
     <Button variant="primary" href='https://github.com/santiagov916/social-api' target='_blank'>See repository</Button>
   </Card.Body>
