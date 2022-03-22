@@ -74,6 +74,24 @@ function Projects() {
                     </Card.Body>
                   </Card>
               </Col>
+
+              <Col>
+                  <Card style={{ width: '15rem' }}>
+                    <Card.Img variant="top" src={first} />
+                    <Card.Body>
+                      <Card.Title>Weather Dashboard</Card.Title>
+                      <Card.Text>
+                        <ul>
+                            <li>
+                                html , css , bootstrap, js, 2 server-side API
+                            </li>
+                        </ul>
+                      </Card.Text>
+                      <Button variant="primary" href='https://github.com/santiagov916/Weatherdashboard' target='_blank'>See repository</Button>
+                    </Card.Body>
+                  </Card>
+              </Col>
+
         </Row>
 </Container>
     )};
