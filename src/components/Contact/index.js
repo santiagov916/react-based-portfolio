@@ -12,7 +12,7 @@ function Footer() {
       <h2 className="text-center">Contact Me!</h2>
       <ul>
         <li>
-          <a href="https://github.com/santiagov916/">
+          <a href="https://github.com/santiagov916/_blank">
             <img alt='' src={photoCat} style={{ maxWidth: "4rem" }}></img>
           </a>
         </li>
@@ -22,13 +22,13 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/santiago-venegas-88ab4b1bb/">
+          <a href="https://www.linkedin.com/in/santiago-venegas-88ab4b1bb/_blank" >
             <img alt='' src={linkedIn} style={{ maxWidth: "4rem" }}
             ></img>
           </a>
         </li>
         <li>
-          <a href="mailto:gme.santi24@yahoo.com">
+          <a href="mailto:santiago1venegas@gmail.com">
             <img alt='' src={emailMe} style={{ maxWidth: "4rem" }}
             ></img>
           </a>
