@@ -24,23 +24,23 @@ function Projects() {
                 <Button variant="primary" href='https://github.com/santiagov916/e-commerce-database' target='_blank'>See repository</Button>
             </Card.Body>
             </Card>
-            </Col>
-            <Col>
-<Card style={{ width: '15rem' }}>
-  <Card.Img variant="top" src={second} />
-  <Card.Body>
-    <Card.Title>Dev-tech Blog</Card.Title>
-    <Card.Text>
-      <ul>
-          <li>
-              mysql, express, express-handlebars
-          </li>
-      </ul>
-    </Card.Text>
-    <Button variant="primary" href='https://github.com/santiagov916/dev-tech-blog' target='_blank'>See repository</Button>
-  </Card.Body>
-</Card>
-</Col>
+                </Col>
+                <Col>
+                  <Card style={{ width: '15rem' }}>
+                    <Card.Img variant="top" src={second} />
+                    <Card.Body>
+                      <Card.Title>Dev-tech Blog</Card.Title>
+                      <Card.Text>
+                        <ul>
+                            <li>
+                                mysql, express, express-handlebars
+                            </li>
+                        </ul>
+                      </Card.Text>
+                      <Button variant="primary" href='https://github.com/santiagov916/dev-tech-blog' target='_blank'>See repository</Button>
+                    </Card.Body>
+                  </Card>
+              </Col>
 <Col>
 <Card style={{ width: '15rem' }}>
   <Card.Img variant="top" className='third' src={third} />
@@ -58,6 +58,22 @@ function Projects() {
   </Card.Body>
 </Card>
 </Col>
+<Col>
+                  <Card style={{ width: '15rem' }}>
+                    <Card.Img variant="top" src={first} />
+                    <Card.Body>
+                      <Card.Title>Group Mern SPA project</Card.Title>
+                      <Card.Text>
+                        <ul>
+                            <li>
+                                express, react, graphql, heroku deployed
+                            </li>
+                        </ul>
+                      </Card.Text>
+                      <Button variant="primary" href='https://github.com/kimberlyamaya/meme-OH-gram' target='_blank'>See repository</Button>
+                    </Card.Body>
+                  </Card>
+              </Col>
         </Row>
 </Container>
     )};
